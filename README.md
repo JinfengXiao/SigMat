@@ -1,5 +1,5 @@
 # SigMat
-*A Classification Scheme for Gene Sig-nature Matching*
+*A Classification Scheme for Gene Signature Matching*
 
 v1.0.0, updated Feb. 2, 2018.
 
