@@ -27,7 +27,7 @@ To train SigMat and match the testing signatures to the top K classes:
 
 ```
 cd R_code
-Rscrpit sigmat.R [-k int]
+Rscript sigmat.R [-k int]
 ```
 
 To evaluate the performance on the test data and print Success@K to screen:
