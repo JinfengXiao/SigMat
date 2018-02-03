@@ -32,7 +32,9 @@ Rscript sigmat.R [-k int]
 
 To evaluate the performance on the test data and print Success@K to screen:
 
-`Rscript eval.R`
+```
+Rscript eval.R
+```
 
 ## Output
 `sigmat.R` generates `test/class_pred.csv`. Each row gives the top K classes matched to each of your testing signatures. You can specify the value of K when running SigMat.
