@@ -1,7 +1,7 @@
 # SigMat
 *A Classification Scheme for Gene Signature Matching*
 
-v1.0.0, updated Feb. 2, 2018.
+v1.0.1, updated Feb. 12, 2018.
 
 ## Functionality
 SigMat is a tool for **matching gene expression signatures to experimental conditions**. For example, given a vector of z-scores of differential expression levels of genes in a sample, SigMat can search through its training drug library to return topK (default: 10) drugs matched to that signature. SigMat can be regarded as a **classification** scheme, since each experimental condition naturally defines a class.
@@ -35,6 +35,8 @@ To evaluate the performance on the test data and print Success@K to screen:
 ```
 Rscript eval.R
 ```
+
+The iPython Notebook version of the above two script are also provided. Note that in `sigmat.ipynb` you need to specify the `k` value, which is the `topK` variable.
 
 ## Output
 `sigmat.R` generates `test/class_pred.csv`. Each row gives the top K classes matched to each of your testing signatures. You can specify the value of K when running SigMat.

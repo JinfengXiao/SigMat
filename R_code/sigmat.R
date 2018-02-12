@@ -2,7 +2,7 @@
 
 # Version info & Welcome message
 cat("\n========================================\n")
-cat("Welcome to SigMat v1.0.0 (Updated Feb. 2, 2018).\n")
+cat("Welcome to SigMat v1.0.1 (Updated Feb. 12, 2018).\n")
 cat("SigMat matches gene expression signatures to experimental conditions, i.e. classes.\n")
 cat("Documentation is available at https://github.com/JinfengXiao/SigMat.\n")
 cat("Command for running SigMat: Rscript sigmat_main.R [-k int]\n")
