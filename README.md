@@ -8,7 +8,7 @@ SigMat is a tool for **matching gene expression signatures to experimental condi
 
 SigMat is able to handle the difficult use case where signatures from a less-studied cell line are matched to signatures from well-studied cell lines. The available but sparse data on a less-studied cell line are utilized by SigMat to "tune" a kernel Support Vector Machine (KSVM) learned on a well-studied cell line. For more algorithmic details, please refer to the **SigMat paper**:
 
-Xiao, J., Blatti, C. and Sinha, S. SigMat: A Classification Scheme for Gene Signature Matching. (Conditionally Accepted to ISMB 2018.)
+Xiao, J., Blatti, C., & Sinha, S. (2018). SigMat: a classification scheme for gene signature matching. _Bioinformatics_, 34(13), i547-i554.
 
 You are welcome to use this tool under the license agreement. Please cite the above paper if SigMat benefits your work.
 
